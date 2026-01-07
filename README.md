@@ -48,46 +48,11 @@
 ![Docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
 
 
-<!-- 外层容器：占满宽度 + 强制横向不换行 -->
-<div style="
-  width: 100%;           /* 占满页面可用宽度，给横向排列留空间 */
-  display: flex;
-  justify-content: center;
-  gap: 8px;              /* 缩小间距更紧凑 */
-  flex-wrap: nowrap;     /* 强制不换行，必须横向 */
-">
-  <!-- 左侧卡片：缩小尺寸 -->
-  <div style="
-    width: 35%;           /* 更窄的宽度，确保能并排 */
-    height: 160px;        /* 同步缩小高度 */
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-  ">
-    <img 
-      src="https://github-stats.ubrong.com/api?username=Uchiha1024&show_icons=true&theme=default" 
-      width="100%" 
-      style="object-fit: contain;"
-      alt="GitHub账户信息统计"
-    />
-  </div>
+  <p align="center">
+    <img src="https://github-stats.ubrong.com/api?username=Uchiha1024&show_icons=true&theme=default" width="420" />
+    <img src="https://github-stats.ubrong.com/api/top-langs/?username=Uchiha1024&layout=compact&theme=default" width="420" />
+  </p>
 
-  <!-- 右侧卡片：和左侧尺寸完全一致 -->
-  <div style="
-    width: 35%;
-    height: 160px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-  ">
-    <img 
-      src="https://github-stats.ubrong.com/api/top-langs/?username=Uchiha1024&layout=compact&theme=default" 
-      width="100%" 
-      style="object-fit: contain;"
-      alt="GitHub账户最常用语言"
-    />
-  </div>
-</div>
 
 
 ![](https://raw.githubusercontent.com/Uchiha1024/Uchiha1024/refs/heads/output/github-contribution-grid-snake.svg)
