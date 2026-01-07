@@ -48,21 +48,43 @@
 ![Docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
 
 
-<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-  <img 
-    src="https://github-stats.ubrong.com/api?username=Uchiha1024&show_icons=true&theme=default" 
-    width="48%" 
-    height="200px"
-    style="object-fit: contain;"
-    alt="GitHub账户信息统计"
-  />
-  <img 
-    src="https://github-stats.ubrong.com/api/top-langs/?username=Uchiha1024&layout=compact&theme=default" 
-    width="48%" 
-    height="200px"
-    style="object-fit: contain;"
-    alt="GitHub账户最常用语言"
-  />
+<div style="
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+">
+  <!-- 左侧卡片容器：强制高度+溢出隐藏 -->
+  <div style="
+    height: 220px;  /* 统一高度，可微调 */
+    width: 48%;
+    overflow: hidden;  /* 裁剪超出容器的部分 */
+    display: flex;
+    align-items: center;  /* 卡片在容器内垂直居中 */
+  ">
+    <img 
+      src="https://github-stats.ubrong.com/api?username=Uchiha1024&show_icons=true&theme=default" 
+      width="100%" 
+      style="object-fit: contain;"
+      alt="GitHub账户信息统计"
+    />
+  </div>
+
+  <!-- 右侧卡片容器：和左侧容器样式完全一致 -->
+  <div style="
+    height: 220px;  /* 必须和左侧高度相同 */
+    width: 48%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  ">
+    <img 
+      src="https://github-stats.ubrong.com/api/top-langs/?username=Uchiha1024&layout=compact&theme=default" 
+      width="100%" 
+      style="object-fit: contain;"
+      alt="GitHub账户最常用语言"
+    />
+  </div>
 </div>
 
 
