@@ -29,4 +29,4 @@ const thai = {
 ---
 
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Uchiha1024)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/Uchiha1024)](https://git.io/streak-stats)
