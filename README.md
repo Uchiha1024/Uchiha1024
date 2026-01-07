@@ -48,21 +48,19 @@
 ![Docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
 
 
-<div align="center">
-  <!-- 第一个卡片：添加 height 和 object-fit 保证高度统一且不变形 -->
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
   <img 
     src="https://github-stats.ubrong.com/api?username=Uchiha1024&show_icons=true&theme=default" 
     width="48%" 
-    height="200px"  <!-- 统一高度，可根据需要调整数值 -->
-    style="object-fit: contain; vertical-align: middle;"  <!-- 防止变形+垂直居中 -->
+    height="200px"
+    style="object-fit: contain;"
     alt="GitHub账户信息统计"
   />
-  <!-- 第二个卡片：设置和第一个完全相同的 height -->
   <img 
     src="https://github-stats.ubrong.com/api/top-langs/?username=Uchiha1024&layout=compact&theme=default" 
     width="48%" 
-    height="200px"  <!-- 必须和第一个卡片高度一致 -->
-    style="object-fit: contain; vertical-align: middle;"
+    height="200px"
+    style="object-fit: contain;"
     alt="GitHub账户最常用语言"
   />
 </div>
