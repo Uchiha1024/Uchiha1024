@@ -49,18 +49,18 @@
 
 
 <div style="
-  display: flex;
+  display: flex;          /* 强制子元素横向排列 */
   justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
+  gap: 10px;              /* 卡片间距 */
+  flex-wrap: nowrap;      /* 禁止换行（确保始终横向） */
 ">
-  <!-- 左侧卡片容器：强制高度+溢出隐藏 -->
+  <!-- 左侧卡片：缩小宽度 -->
   <div style="
-    height: 220px;  /* 统一高度，可微调 */
-    width: 48%;
-    overflow: hidden;  /* 裁剪超出容器的部分 */
+    width: 40%;           /* 宽度缩小，可微调（比如38%/42%） */
+    height: 180px;        /* 高度同步缩小 */
+    overflow: hidden;
     display: flex;
-    align-items: center;  /* 卡片在容器内垂直居中 */
+    align-items: center;
   ">
     <img 
       src="https://github-stats.ubrong.com/api?username=Uchiha1024&show_icons=true&theme=default" 
@@ -70,10 +70,10 @@
     />
   </div>
 
-  <!-- 右侧卡片容器：和左侧容器样式完全一致 -->
+  <!-- 右侧卡片：和左侧宽度一致 -->
   <div style="
-    height: 220px;  /* 必须和左侧高度相同 */
-    width: 48%;
+    width: 40%;
+    height: 180px;
     overflow: hidden;
     display: flex;
     align-items: center;
