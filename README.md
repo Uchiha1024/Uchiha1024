@@ -48,16 +48,18 @@
 ![Docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
 
 
+<!-- 外层容器：占满宽度 + 强制横向不换行 -->
 <div style="
-  display: flex;          /* 强制子元素横向排列 */
+  width: 100%;           /* 占满页面可用宽度，给横向排列留空间 */
+  display: flex;
   justify-content: center;
-  gap: 10px;              /* 卡片间距 */
-  flex-wrap: nowrap;      /* 禁止换行（确保始终横向） */
+  gap: 8px;              /* 缩小间距更紧凑 */
+  flex-wrap: nowrap;     /* 强制不换行，必须横向 */
 ">
-  <!-- 左侧卡片：缩小宽度 -->
+  <!-- 左侧卡片：缩小尺寸 -->
   <div style="
-    width: 40%;           /* 宽度缩小，可微调（比如38%/42%） */
-    height: 180px;        /* 高度同步缩小 */
+    width: 35%;           /* 更窄的宽度，确保能并排 */
+    height: 160px;        /* 同步缩小高度 */
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -70,10 +72,10 @@
     />
   </div>
 
-  <!-- 右侧卡片：和左侧宽度一致 -->
+  <!-- 右侧卡片：和左侧尺寸完全一致 -->
   <div style="
-    width: 40%;
-    height: 180px;
+    width: 35%;
+    height: 160px;
     overflow: hidden;
     display: flex;
     align-items: center;
