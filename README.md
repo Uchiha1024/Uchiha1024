@@ -49,6 +49,7 @@
 
 
 ![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=Uchiha1024&amp;show_icons=true&amp;theme=default)
+![GitHub账户最常用语言](https://github-stats.ubrong.com/api/top-langs/?username=Uchiha1024&amp;layout=compact&amp;theme=tokyonight)
 
 
 ![](https://raw.githubusercontent.com/Uchiha1024/Uchiha1024/refs/heads/output/github-contribution-grid-snake.svg)
