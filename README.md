@@ -48,7 +48,7 @@
 ![Docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
 
 
-![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=Uchiha1024&amp;show_icons=true&amp;theme=tokyonight)
+![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=Uchiha1024&amp;show_icons=true&amp;theme=default)
 
 
 ![](https://raw.githubusercontent.com/Uchiha1024/Uchiha1024/refs/heads/output/github-contribution-grid-snake.svg)
