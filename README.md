@@ -1,28 +1,20 @@
-<h2> Hi, I'm Vince! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+ <h2> Hi, I'm Vince (Uchiha1024)! <img src="https://skillicons.dev/icons?i=go" width="40"></h2>
 
-</em></p>
+  ### <img src="https://skillicons.dev/icons?i=ethereum" width="40"> A little more about me...
 
-
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
-
-```javascript
-const thai = {
-  pronouns: "she" | "her",
-  code: [Javascript, Typescript, HTML, CSS, Ruby, Python, Java],
-  tools: [React, Redux, Node, Storybook, Styled-Components, Jest, Docker],
-  architecture: ["microservices", "event-driven", "design system pattern"],
-  techCommunities: {
-                        coorganizer: "AfroPython",
-                        speaker: "Latinity",
-                        mentor: "EducaTRANSforma"
-                      },
- challenge: "I am doing the #100DaysOfCode challenge focused on react and typescript"
-}
-```
-
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
-
----
-
-
-[![GitHub Streak](https://streak-stats.demolab.com/Uchiha1024)](https://git.io/streak-stats)
+  ```javascript
+  const vince = {
+    github: "Uchiha1024",
+    role: "Backend Engineer",
+    focus: ["Blockchain development", "High availability", "Performance", "Observability"],
+    code: ["Go", "Java", "SQL"],
+    blockchain: ["EVM/Web3", "On-chain events", "Off-chain indexer", "Wallet/Tx service"],
+    backend: ["Gin/Echo", "Spring Boot", "gRPC", "REST"],
+    data: ["MySQL/PostgreSQL", "Redis", "Elasticsearch"],
+    messaging: ["Kafka/RabbitMQ"],
+    infra: ["Docker", "Kubernetes", "Linux"],
+    challenge: "Keep building & shipping (Go/Java + blockchain)"
+  }
+  <img src="https://skillicons.dev/icons?i=docker" width="48">
+  <em><b>I love connecting with different people</b> — if you want to say <b>hi</b>, feel free to reach out!</em>
+  ```
